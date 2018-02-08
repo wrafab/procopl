@@ -1,85 +1,111 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <title>Marauder Designs</title>
-    <link rel="shortcut icon" href="skull.png" />
-    <style>
-      body {
-        background-color: black;
-        h1 {font-family:arial;font-size:400%;text-align:center;}
-        h2 {font-family:arial;font-size:200%;text-align:center;}
-        p {font-family:arial;font-size:200%;text-align:center;}
-        li{font-family:arial;font-size:100%;}
-        a {font-family:arial;font-size:100%;text-align:center;}
-      }
-    </style>
-  </head>
-  <body>
-    <center>
-    <div style="color:#FFFFFF">
-      <br>
-      <br>
-      <img src="titlecad.png" width="1000" height="250"/>
-      <hr style="width:100%">
-      <br>
-      </center>
-      <center>
-      <li>
-        <a href="index.html">
-        <img src="home1.png" height="100" width="150" alt="Home">
-        </a>
-        <a href="bio.html">
-        <img src="aboutmenew.png" height="100" width="150" alt="About Me">
-        </a>
-        <a href="rotation1.html">
-        <img src="cad.png" height="100" width="150" alt="Rotation 1">
-        </a>
-        <a href="rotation2.html">
-        <img src="design.png" height="100" width="150" alt="Rotation 2">
-        </a>
-        <a href="rotation3.html">
-        <img src="laser.png" height="100" width="150" alt="Rotation 3">
-        </a>
-      </li>
-      </center>
-      </div>
-      <br>
-      <br>
-      <br>
-      <center>
-        <h1 style="color:white;">3D Printed Wax Stamp</h1>
-        <br>
-        <h2 style="color:white;">Fleur De Lis Design</h2>
-        <br>
-        <br>
-        <br>
-        <img src="stamporiginal.PNG" alt="Fusion 360" width="980" height="520">
-        <h2 style="color:white;">My final design in the Fusion 360 program</h2>
-        <pre style="color: white";>
-        Using 2d shapes, extrusions, filets, and other tools within Fusion 360, I designed this ornate stamp.  
-        After getting the hang of the program, this took probably 20 minutes to create.  
-        To achieve the "P" and the Fleur De Lis on the bottom (as seen in the last picture below), I imported photos, 
-        traced around them with line segments, then extruded those 2D shapes into what they are now.
-        </pre>
-        <img src="makerbot.PNG" alt="Makerbot" width="980" height="520">
-        <h2 style="color:white;">My imported stl file in Makerbot Print</h2>
-        <pre style="color: white";>
-        After exporting my design as a stl file, I opened it in Makerbot Print. I first changed the units to
-        inches, flipped it, added supports, and then exported it onto a flashdrive.  I started the printed process on one of the 5th gen
-        Makerbots and it took roughly 2.5 hours to finish.
-        </pre>
-        <img src="stampover.jpg" alt="Stamp Overview" width="375" height="667">
-        <h2 style="color:white;">My printed and sanded stamp</h2>
-        <pre style="color: white";>
-        This is the final product! It came out great, especially the "P" and Fleur de Lis.  I removed all the supports, extra plastic
-        and then sanded it down so it looks as sleek as a 3D printed object can. I'm happy with how it turned out.
-        </pre>
-        <img src="stampbottom.jpg" alt="Stamp Bottom" width="375" height="667">
-        <h2 style="color:white;">The bottom of the stamp--a fleur de lis shown</h2>
-        <pre style="color: white";>
-        This is the functional part of the stamp, the actual stamp part.  It both printed very precicely since I positioned it upwards in
-        the printing process and it works too--I tested it.
-        </pre>
-      </center>
-  </body>
- </html>
+
+<head>
+	<title>Marauder Designs</title>
+	<link rel="shortcut icon" href="skull.png" />
+	<style>
+	* {
+    		box-sizing: border-box;
+		}
+	body {
+		background-image: url("map4.png");
+		margin: 0;
+		
+       	}
+       	.sidenav {
+       		height: 100%;
+   		width: 250px;
+    		position: fixed;
+    		z-index: 1;
+    		top: 0;
+    		left: 0;
+    		background-color: #333333;
+    		overflow-x: hidden;
+       		}
+       	.sidenav a {
+    		color: white;
+    		padding: 16px;
+    		text-decoration: none;
+    		display: block;
+    		font-size: 200%;
+		}
+	.sidenav a:hover {
+   		background-color: gray;
+		}
+	.content {
+    		margin-left: 250px;
+    		padding-left: 0px;
+		}
+	
+       	h1 {
+       		font-family: Courier New;
+       		font-size: 200;
+       		color: white;
+       		text-alight: center;
+       		}
+	
+	h2 {
+		font-family: Courier New;
+		font-size: 150%;
+		color: white;
+		text-align: center;
+		}
+	
+	p {
+		font-family: Courier New;
+		font-size: 100%;
+		color: white;
+		text-align: center;
+		}
+	
+	li {
+		font-family: Courier New;
+		font-size: 170%;
+		color: white;
+  		display: inline-block;
+  		margin: 0 10px;
+  		padding-right: 1em;	
+		}
+       	
+       	a {
+       		font-family: Courier New;
+       		font-size: 150%;
+       		text-align: center;
+       		color: white;
+       		text-decoration: none;
+       		}
+       	a:hover {
+       		text-decoration: none;
+       		background-color: gray;
+       		}
+       	a:active {
+       		text-decoration:none;
+       		background-color: white;
+       		}
+       	</style>
+</head>
+<body>
+	<div class="sidenav">
+		<br>
+		<center>
+		<img src="goodskull.png" alt="skull" width="181.09" height="146.36" />
+		<img src="media1.png" alt="Media" width="109.9" height="42" />
+		<br>
+		<hr style:"width=100%">
+		</center>
+		<a href="index.html">Home</a>
+  		<a href="media.html">Media</a>
+ 		<a href="gallery.html">Gallery</a>
+  		<a href="shop.html">Shop</a>
+	</div>
+	
+	<div class="content">
+		<br>
+		<br>
+		<br>
+    <h1>3D Printed Wax Stamp</h1>
+	</div>
+</body>
+</html>
