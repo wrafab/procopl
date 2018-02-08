@@ -1,48 +1,125 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Marauder Designs</title>
-    <link rel="shortcut icon" href="skull.png" />
-    <style>
-      body {
-        background-color: black;
-        h1 {font-family:arial;font-size:200%;text-align:center;}
-        h2 {font-family:arial;font-size:150%;text-align:center;}
-        p {font-family:arial;font-size:200%;text-align:center;}
-        li{font-family:arial;font-size:100%;}
-        a {font-family:arial;font-size:100%;text-align:center;}
-      }
-    </style>
-  </head>
-  <body>
-    <center>
-    <div style="color:#FFFFFF">
-      <br>
-      <br>
-      <img src="titlelaser.png" width="1000" height="250"/>
-      <hr style="width:100%">
-      <br>
-      </center>
-      <center>
-      <li>
-        <a href="index.html">
-        <img src="home1.png" height="100" width="150" alt="Home">
-        </a>
-        <a href="bio.html">
-        <img src="aboutmenew.png" height="100" width="150" alt="About Me">
-        </a>
-        <a href="rotation1.html">
-        <img src="cad.png" height="100" width="150" alt="Rotation 1">
-        </a>
-        <a href="rotation2.html">
-        <img src="design.png" height="100" width="150" alt="Rotation 2">
-        </a>
-        <a href="rotation3.html">
-        <img src="laser.png" height="100" width="150" alt="Rotation 3">
-        </a>
-      </li>
-      </center>
-      </div>
-  </body>
- </html>
 
+<html>
+
+<head>
+	<title>Marauder Designs</title>
+	<link rel="shortcut icon" href="skull.png" />
+	<style>
+	* {
+    		box-sizing: border-box;
+		}
+	body {
+		background-image: url("map4.png");
+		margin: 0;
+		
+       	}
+       	.sidenav {
+       		height: 100%;
+   		width: 250px;
+    		position: fixed;
+    		z-index: 1;
+    		top: 0;
+    		left: 0;
+    		background-color: #333333;
+    		overflow-x: hidden;
+       		}
+       	.sidenav a {
+    		color: white;
+    		padding: 16px;
+    		text-decoration: none;
+    		display: block;
+    		font-size: 200%;
+		}
+	.sidenav a:hover {
+   		background-color: gray;
+		}
+	.content {
+    		margin-left: 250px;
+    		padding-left: 0px;
+		}
+	
+       	h1 {
+       		font-family: Courier New;
+       		font-size: 450;
+       		color: white;
+       		text-alight: center;
+       		}
+	
+	h2 {
+		font-family: Courier New;
+		font-size: 200%;
+		color: white;
+		text-align: center;
+		}
+	
+	p {
+		font-family: Courier New;
+		font-size: 100%;
+		color: white;
+		text-align: center;
+		}
+	pre {
+		color: white;
+		font-size: 150%;
+		}
+	
+	li {
+		font-family: Courier New;
+		font-size: 170%;
+		color: white;
+  		display: inline-block;
+  		margin: 0 10px;
+  		padding-right: 1em;	
+		}
+       	
+       	a {
+       		font-family: Courier New;
+       		font-size: 150%;
+       		text-align: center;
+       		color: white;
+       		text-decoration: none;
+       		}
+       	a:hover {
+       		text-decoration: none;
+       		background-color: gray;
+       		}
+       	a:active {
+       		text-decoration:none;
+       		background-color: white;
+       		}
+       	</style>
+</head>
+<body>
+	<div class="sidenav">
+		<br>
+		<center>
+		<img src="goodskull.png" alt="skull" width="181.09" height="146.36" />
+		<h1>About Me</h1>
+		<hr style:"width=100%">
+		</center>
+		<a href="index.html">Home</a>
+  		<a href="bio.html">About Me</a>
+ 		<a href="rotation1.html">CAD</a>
+  		<a href="rotation2.html">Print/Dye</a>
+		<a href="rotation3.html">Laser</a>
+	</div>
+	
+	<div class="content">
+		<br>
+		<br>
+		<br>
+		<center>
+			<h2>About Me</h2>
+			<br>
+			<pre>Hey, I'm London Procop--thanks for visiting my site.  
+			Im basing my portfolio on all things nautical and specifically, all things pirate.  
+			Here are some of my favorite sea shanties and songs:
+			</pre>
+			<iframe src="https://open.spotify.com/embed/track/6TOQY40mnZWzhQhpGYI4WT" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+			<iframe src="https://open.spotify.com/embed/track/6Fv0O8eHNcWO1DmF0EMrRc" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+			<iframe src="https://open.spotify.com/embed/track/1NVnks3SiWkJi4TOBJo6PH" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+		</center>
+	</div>
+</body>
+</html>
