@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Marauder Designs</title>
+	<link rel="shortcut icon" href="skull.png" />
+	<style>
+	* {
+    		box-sizing: border-box;
+		}
+	body {
+		background-image: url("map4.png");
+		margin: 0;
+		
+       	}
+       	.sidenav {
+       		height: 100%;
+   		width: 250px;
+    		position: fixed;
+    		z-index: 1;
+    		top: 0;
+    		left: 0;
+    		background-color: #333333;
+    		overflow-x: hidden;
+       		}
+       	.sidenav a {
+    		color: white;
+    		padding: 16px;
+    		text-decoration: none;
+    		display: block;
+    		font-size: 200%;
+		}
+	.sidenav a:hover {
+   		background-color: gray;
+		}
+	.content {
+    		margin-left: 250px;
+    		padding-left: 0px;
+		}
+	
+       	h1 {
+       		font-family: Courier New;
+       		font-size: 350%;
+       		color: white;
+       		text-alight: center;
+       		}
+	
+	h2 {
+		font-family: Courier New;
+		font-size: 300%;
+		color: white;
+		text-align: center;
+		}
+	h3 {
+		font-family: Courier New;
+		font-size: 250%;
+		color: white;
+		text-align: center;
+		}
+	
+	p {
+		font-family: Courier New;
+		font-size: 100%;
+		color: white;
+		text-align: center;
+		}
+	
+	li {
+		font-family: Courier New;
+		font-size: 170%;
+		color: white;
+  		display: inline-block;
+  		margin: 0 10px;
+  		padding-right: 1em;	
+		}
+       	
+       	a {
+       		font-family: Courier New;
+       		font-size: 150%;
+       		text-align: center;
+       		color: white;
+       		text-decoration: none;
+       		}
+	pre {
+       		color: white;
+       		}
+       	a:hover {
+       		text-decoration: none;
+       		background-color: gray;
+       		}
+       	a:active {
+       		text-decoration:none;
+       		background-color: white;
+       		}
+       	</style>
+</head>
+<body>
+	<div class="sidenav">
+		<br>
+		<center>
+		<img src="goodskull.png" alt="skull" width="181.09" height="146.36" />
+		<h1>CAD</h1>
+		<hr style:"width=100%">
+		</center>
+		<a href="index.html">Home</a>
+  		<a href="bio.html">About Me</a>
+ 		<a href="rotation1.html">CAD</a>
+  		<a href="rotation2.html">Print/Dye</a>
+		<a href="rotation3.html">Laser</a>
+	</div>
+	
+	<div class="content">
+		<center>
+		<br>
+		<br>
+    		<h1>3D Printed Wax Stamp</h1>
+		<br>
+		<br>
+		<img src="stamporiginal.PNG" alt="Fusion 360" width="980" height="520">
+		<br>
+		<br>
+		<h1>Process</h2>
+		<hr style:"width=100%">
+		<h3>Fusion360</h3>
+		<pre>
+In Fusion360, I created the stl for this wax stamp.  
+Starting with 2d geometric shapes, I extruded them to their 
+current form. I then traced the Fleur de Lis and "P" with 
+line segments in order to extrude those.  Finally, I added filets
+for a design element. 
+		</pre>
+		<br>
+		<br>
+		<img src="stampfull.JPG" alt="Stamp" width="375" height="666.99">
+		<img src="stampbottom.JPG" alt="Stamp Bottom" width="375" height="666.99">
+		<br>
+		<video width="544" height="896" controls>
+  			<source src="stamp.MP4" type="video/mp4">
+		</video>
+		</center>
+	</div>
+</body>
+</html>
